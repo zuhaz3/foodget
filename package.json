@@ -1,5 +1,5 @@
 {
-  "name": "foodGET",
+  "name": "foodget",
   "description": "foodGET allows you to order food through the command line using Postmates",
   "version": "0.1.0",
   "homepage": "https://github.com/zuhaz3/foodget",

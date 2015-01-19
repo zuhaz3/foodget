@@ -3,7 +3,7 @@
 foodGET allows you to order food through the command line using Postmates
 
 ## Getting Started
-Install the module with: `npm install foodGET -g`
+Install the module with: `npm install foodget -g`
 
 ## Usage
 For a quote and Foursquare page of nearest venue:
