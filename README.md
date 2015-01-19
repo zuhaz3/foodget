@@ -3,21 +3,23 @@
 foodGET allows you to order food through the command line using Postmates
 
 ## Getting Started
-Install the module with: `npm install foodGET`
+Install the module with: `npm install foodGET -g`
+
+## Usage
+For a quote and Foursquare page of nearest venue:
 
 ```javascript
-var foodGET = require('foodGET');
-foodGET.awesome(); // "awesome"
+foodget --item 'Filet-o-Fish meal with large drink and 2 apple pies' --eatery 'McDonalds' --name 'Zuhayeer Musa' --address '3300 Walnut Street, Philadelphia' --phone '408-759-0676' -o
 ```
 
-## Documentation
-_(Coming soon)_
+For actual delivery (invoke the --delivery flag):
 
-## Examples
-_(Coming soon)_
+```javascript
+foodget --item 'Filet-o-Fish meal with large drink and 2 apple pies' --eatery 'McDonalds' --name 'Zuhayeer Musa' --address '3300 Walnut Street, Philadelphia' --phone '408-759-0676' --delivery
+```
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+<!-- ## Contributing
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/). -->
 
 ## Release History
 _(Nothing yet)_
