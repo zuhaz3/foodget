@@ -9,13 +9,13 @@ Install the module with: `npm install foodGET -g`
 For a quote and Foursquare page of nearest venue:
 
 ```javascript
-foodget --item 'Filet-o-Fish meal with large drink and 2 apple pies' --eatery 'McDonalds' --name 'Zuhayeer Musa' --address '3300 Walnut Street, Philadelphia' --phone '408-759-0676' -o
+foodget --item 'Filet-o-Fish meal with large drink and 2 apple pies' --eatery 'McDonalds' --name 'Zuhayeer Musa' --address '3300 Walnut Street, Philadelphia' --phone '408-555-5555' -o
 ```
 
 For actual delivery (invoke the --delivery flag):
 
 ```javascript
-foodget --item 'Filet-o-Fish meal with large drink and 2 apple pies' --eatery 'McDonalds' --name 'Zuhayeer Musa' --address '3300 Walnut Street, Philadelphia' --phone '408-759-0676' --delivery
+foodget --item 'Filet-o-Fish meal with large drink and 2 apple pies' --eatery 'McDonalds' --name 'Zuhayeer Musa' --address '3300 Walnut Street, Philadelphia' --phone '408-555-5555' --delivery
 ```
 
 <!-- ## Contributing
